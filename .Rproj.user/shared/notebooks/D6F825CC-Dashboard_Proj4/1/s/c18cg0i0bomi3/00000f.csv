@@ -1,0 +1,7 @@
+"0","if (!dir.exists(here(""data""))) {"
+"0","  dir.create(here(""data""))"
+"0","}"
+"0","childcare_costs_data <- here(""data"", ""childcare_costs.csv"")"
+"0",""
+"0","childcare_costs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-05-09/childcare_costs.csv', show_col_types = FALSE)"
+"0","readr::write_csv(childcare_costs, childcare_costs_data)"

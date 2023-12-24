@@ -1,0 +1,25 @@
+"0","library(flexdashboard)"
+"0","library(usethis)"
+"0","library(here)"
+"2","here() starts at /Users/noraelhaissouni/Downloads/Statistical Computing/NoraElhaissouniProj4
+"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(noraproj2)"
+"0","library(ggplot2)"
+"0","library(tidyr)"
+"0","library(tidytuesdayR)"
+"0","library(readr)"
